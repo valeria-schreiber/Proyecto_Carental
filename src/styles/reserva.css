@@ -1,0 +1,276 @@
+@import '~react-datepicker/dist/react-datepicker.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/react-datepicker/2.8.0/react-datepicker.min.css');
+
+/* .reserva-container {
+  padding-top: 50px;
+  width: 100;
+}
+
+.header-reserva {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2.5rem;
+  background-color: #66a181;
+  color: white;
+}
+.reserva-nombre {
+  margin-left: 0;
+}
+
+.header-reserva-izq {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.bloque-inputs-titulo {
+  margin-left: 5%;
+  padding-top: 20px;
+}
+
+.bloque-inputs {
+  display: grid;
+  column-gap: 50px;
+  width: 30%;
+  padding: 40px;
+  padding-left: 5%;
+}
+
+.reserva-dato {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.reserva-calendario {
+  border: none !important;
+  min-width: 40rem !important;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
+  height: auto !important;
+  flex-wrap: wrap;
+  background-color: #e5efe9;
+  margin-top: -540px;
+  margin-bottom: 20px;
+  margin-left: 38%;
+}
+
+.bloque-titulo-calendario {
+  padding-left: 45%;
+  padding-bottom: 30%;
+}
+
+.sec-calendar {
+  margin-top: -390px;
+}
+
+.hora-llegada {
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #e5efe9;
+}
+
+.body-hora-llegada {
+  padding: 20px;
+  background-color: white;
+}
+.bloque-detalle-reserva {
+  background-color: white;
+  padding: 40px;
+}
+
+
+
+.imagen-auto {
+  background-size: cover;
+  align-items: center;
+}
+.terminos-container {
+  padding: 50px;
+  background-color: white;
+}
+
+.terminos-partes {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-small;
+}
+
+.boton-confirmar-reserva {
+  background-color: #66a181;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.boton-confirmar-reserva-container {
+  padding: 1rem 0 1rem 0;
+}
+
+.reserva-llegada {
+  font-size: 15px;
+}
+
+.location-img-container {
+  padding-bottom: 1rem;
+}
+.location-img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.reserva-body {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+
+.reserva-body-container {
+}
+
+ */
+
+.header-reserva {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #66a181;
+  color: white;
+  margin-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.categoria-reserva {
+  padding-left: 1rem;
+}
+
+.reserva-body {
+  height: 100%;
+}
+
+.reserva-body-container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 5rem 5rem 5rem;
+  column-gap: 3rem;
+  margin-right: 7rem;
+}
+
+.bloque-inputs {
+  padding: 2rem;
+}
+
+.hora-llegada {
+  padding-top: 2rem;
+}
+
+.body-hora-llegada {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.reserva-body-container-1 {
+  background-color: #e5efe9;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 55%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.reserva-body-container-2 {
+  background-color: #e5efe9;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.reserva-body-container-3 {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.detalle-reserva-titulo {
+  padding: 1rem 0 1rem 1rem;
+  background-color: #e5efe9;
+  border-radius: 20px;
+}
+
+.detalle-reserva-titulo-2 {
+  padding-top: 2rem;
+}
+
+.detalle-reserva-2parte {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.boton-confirmar-reserva {
+  background-color: #66a181;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.check-in {
+  padding-top: 2rem;
+}
+
+.boton-confirmar-reserva-container {
+  padding: 4rem 0 1rem 0;
+}
+
+.location-img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.imagen-auto {
+  width: 45rem;
+  height: 25rem;
+}
+
+.reserva-calendario {
+  border: none !important;
+  min-width: 20rem !important;
+  border-radius: 1rem;
+  font-size: 1rem;
+  height: auto !important;
+  flex-wrap: wrap;
+  background-color: #f8f8f8;
+}
+
+.reserva-terminos {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 3px solid #66a181;
+}
+
+.reserva-llegada {
+  padding: 0 2rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
+
+.terminos-partes {
+  padding-left: 1rem;
+}

@@ -1,0 +1,242 @@
+#open-galery {
+  /* border: solid red 1px; */
+  height: 5%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  bottom: 5vh;
+  right: 1.5vw;
+}
+#open-galery span {
+  color: var(--quaternary);
+  text-decoration: underline;
+  font-weight: bold;
+}
+#mobile-carrusel {
+  display: none;
+}
+.left-side {
+  height: 100%;
+  width: 50%;
+  padding: 3.5vh 0;
+}
+.left-side img {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.rigth-side {
+  width: 50%;
+  /*position: relative;   */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2.1vh 0;
+}
+
+.rigth-side img {
+  border-radius: 3%;
+  margin: auto;
+  height: 45%;
+  width: 45%;
+}
+.icono {
+  font-size: x-large;
+  cursor: pointer;
+}
+.img-prod-link {
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #66a181;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.img-prod-div {
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  padding-bottom: 4rem;
+}
+.prod-container {
+  display: flex;
+  padding-left: 30px;
+  margin-top: 100px;
+  align-items: center;
+}
+
+@media screen and (max-width: 810px) {
+  div#galery {
+    display: none;
+  }
+  #mobile-carrusel {
+    display: block;
+    margin: 1vh 0;
+    width: 100;
+    height: fit-content;
+  }
+  #mobile-carrusel img {
+    border-radius: 2%;
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer-right {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/*div#galery {
+    padding: 0;
+    width: 92.3vw;
+    /* height: 80vh; */
+/*}
+#open-galery{
+    /* border: solid red 1px; */
+/*height: 5%;
+    cursor: pointer;
+    position:absolute;
+    bottom: 30px;
+    right: 20px;
+    bottom: 5vh;
+    right: 1.5vw;
+}
+#open-galery span{
+    color: var(--quaternary);
+    text-decoration: underline;
+    font-weight: bold;
+}
+#mobile-carrusel{
+    display: none;
+}
+.left-side {
+    height: 100%;
+    width: 50%;
+    padding: 3.5vh 0;
+}
+.left-side img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.rigth-side {
+    width: 50%;
+    /*position: relative;   */
+/*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2.1vh 0;
+    
+}
+
+.rigth-side img {
+    border-radius: 3%;
+    margin: auto;
+    height: 45%;
+    width: 45%;
+}
+.icono{
+    font-size: x-large;
+    cursor: pointer;
+}
+.img-prod-link{
+margin-left: 500px;
+;
+}
+.prod-container{
+    display: flex;
+    padding-left: 30px;
+    margin-top: 100px;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 810px) {
+    div#galery{
+        display: none;
+    }
+    #mobile-carrusel{
+        display: block;
+        margin: 1vh 0;
+        width: 100;
+        height: fit-content;
+    }
+    #mobile-carrusel img{
+        border-radius: 2%;
+    }
+}
+    @media (max-width: 768px) {
+        .footer-container {
+          flex-direction: column;
+          align-items: center;
+        }
+        .footer-right {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      
+      
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .footer-container {
+          flex-direction: column;
+          align-items: center;
+        }
+        .footer-right {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      
+      
+      @media (min-width: 1024px) {
+        .footer-container {
+          flex-direction: row;
+          align-items: center;
+        }
+        .footer-right {
+          flex-direction: row;
+          align-items: center;
+        }
+}
+
+
+div#galery {
+  padding: 0;
+  width: 92.3vw;
+  /* height: 80vh; */
